@@ -1,0 +1,55 @@
+.title{
+    font-size: 3rem;
+}
+
+
+
+.job__portal{
+    display: flex;
+    justify-content: center;
+    margin:2rem;
+    border-bottom:2px solid white;
+}
+
+
+.company__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 auto;
+    border-radius: 8px;
+    width: 60%;
+    height: 60px;
+    background-color: #7827C8;
+    color: white;
+}
+
+.company__button{
+    border:1px solid white;
+    padding: 8px 24px 8px 24px;
+    border-radius: 4px;
+}
+
+
+
+.company__name{
+    cursor: pointer;
+    font-size:1.5rem
+}
+
+.modal__box{
+    border-radius: 16px;
+}
+
+.job__modal{
+   width: 350px;
+   height: 350px;
+   display: flex;
+   flex-direction: column;
+   gap:16px;
+   justify-content: center;
+   align-items: center;
+}
+
+
